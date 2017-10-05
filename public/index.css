@@ -1,6 +1,16 @@
+body,
+html {
+    height: 100%;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #1d1d1d;
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #1d1d1d;
+    font-size: 16px;
+}
+
+#root {
+    height: 100%;
 }

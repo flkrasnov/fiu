@@ -6,6 +6,7 @@ import Footer from './Footer';
 const Wrapper = styled.div`
   position: relative;
   height: 100%;
+  background: #ececec;
 `;
 
 class App extends Component {

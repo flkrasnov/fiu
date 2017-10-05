@@ -62,12 +62,10 @@ class Header extends Component {
 
   mouseEnter() {
     this.setState({ isOpened: true });
-    console.log(111);
   }
 
   mouseLeave() {
     this.setState({ isOpened: false });
-    console.log(222);
   }
 
   render() {
