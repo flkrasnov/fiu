@@ -1,30 +1,24 @@
 import React, { Component } from 'react';
 import { ScrollSection, ScrollContainer } from 'react-onepage-scroll';
+import Summary from './Slides/Summary';
+import Gallery from './Slides/Gallery';
+import Contacts from './Slides/Contacts';
 
 class App extends Component {
   render() {
     return (
       <ScrollContainer>
-        <ScrollSection
-          style={{
-            backgroundColor: '#cfb5cf'
-          }}
-          pageId={0}
-        />
+        <ScrollSection pageId={0}>
+          <Summary />
+        </ScrollSection>
 
-        <ScrollSection
-          style={{
-            backgroundColor: '#cfcfb5'
-          }}
-          pageId={1}
-        />
+        <ScrollSection pageId={1}>
+          <Gallery />
+        </ScrollSection>
 
-        <ScrollSection
-          style={{
-            backgroundColor: '#b5cfcf'
-          }}
-          pageId={2}
-        />
+        <ScrollSection pageId={2}>
+          <Contacts />
+        </ScrollSection>
       </ScrollContainer>
     );
   }
