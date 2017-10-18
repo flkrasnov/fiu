@@ -6,6 +6,7 @@
     "flexboxgrid2": "^7.0.0-alpha7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-flexbox-grid": "^1.1.5",
     "react-onepage-scroll": "^1.0.1",
     "react-scripts": "1.0.14",
     "styled-components": "^2.2.0"
