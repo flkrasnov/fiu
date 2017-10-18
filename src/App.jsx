@@ -5,8 +5,22 @@ import Footer from './Footer';
 
 const Wrapper = styled.div`
   position: relative;
-  height: 100%;
   background: #ececec;
+`;
+
+const Block1 = styled.div`
+  height: 600px;
+  background: #cac;
+`;
+
+const Block2 = styled.div`
+  height: 600px;
+  background: #aca;
+`;
+
+const Block3 = styled.div`
+  height: 600px;
+  background: #cca;
 `;
 
 class App extends Component {
@@ -14,6 +28,9 @@ class App extends Component {
     return (
       <Wrapper>
         <Header />
+        <div>
+          <Block1 />
+        </div>
         <Footer />
       </Wrapper>
     );

@@ -24,6 +24,7 @@ const Logo = styled.a`
 const MenuLink = styled.a`
   display: inline-block;
   padding: 1rem 1.5rem;
+  font-size: 1.125rem;
   font-weight: 700;
   color: #1d1d1d;
   text-decoration: none;
